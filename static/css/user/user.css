@@ -44,9 +44,10 @@ body{
 .user_index_site a{
     text-decoration: none;
     color: black;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
     font-size: 30px;
+    letter-spacing: 2px;
+
 }
 
 .index_forum_news_site{
