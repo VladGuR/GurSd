@@ -26,17 +26,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90px;
+    width: 120px;
     height: 50px;
-    font-family: 'Dancing Script', cursive;
-    font-size: 30px;
-    letter-spacing: 2px;
+    margin-left: 15px;
     margin-bottom: 5px;
 }
 
 .index_site a{
     text-decoration: none;
     color: white;
+}
+
+.index_gursd{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
 }
 
 .os{
@@ -153,16 +157,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 250px;
+    width: 235px;
     height: 350px;
 }
 
-.game_photo_name a{
-    text-decoration: none;
-}
-
 .game_photo{
-    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
     height: 280px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -170,8 +173,8 @@ body {
 }
 
 .game_photo img{
-    width: 200px;
-    height: 280px;
+    width: 215px;
+    height: 275px;
     border-radius: 5px;
 }
 
@@ -270,15 +273,17 @@ body {
 }
 
 .ganre1{
-    padding-left: 10px;
+    padding-left: 9px;
     width: 250px;
+    height: 30px;
     margin-bottom: 5px;
-    border-radius: 5px;
 }
 
 .ganre1:hover{
     background-color: rgb(242,242,242);
     padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
 .top{
@@ -344,13 +349,26 @@ body {
     align-items: center;
     padding-left: 10px;
     width: 250px;
-    height: 50px;
+    height: 70px;
     margin-bottom: 5px;
     border-radius: 5px;
 }
 
-.top_img img{
+.top1:hover{
+    border: 1px solid black;
+}
+
+.top_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.top_img img{
+    width: 40px;
     height: 50px;
     border-radius: 5px;
 }
