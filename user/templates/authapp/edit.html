@@ -21,7 +21,8 @@
             <div class="user_form_edit">
                 <div class="f_name_input">
                     <span>Имя</span>
-                    <input class="input_f_name" type="text" name="first_name" id="id_first_name" placeholder="Введите имя"
+                    <input class="input_f_name" type="text" name="first_name" id="id_first_name"
+                           placeholder="Введите имя"
                            value="{{user.first_name}}">
                 </div>
                 <div class="l_name_input">
@@ -37,9 +38,11 @@
                 </div>
             </div>
             <div class="btn_edit">
-                <button class="btn2 edit_btn_success2"><a class="a" href="{% url 'auth:profile' user.id %}">Назад</a>
-                </button>
-                <button type="submit" class="btn1 edit_btn_success1">Сохранить</button>
+                <a class="a" href="{% url 'user:profile' user.id %}">
+                    <button class="back_btn2 edit_btn_success2">Назад
+                    </button>
+                </a>
+                <button type="submit" class="save_btn1 edit_btn_success1">Сохранить</button>
             </div>
         </form>
     </div>
