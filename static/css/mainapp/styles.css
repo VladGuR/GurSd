@@ -119,10 +119,11 @@ body {
 
 .new_games{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 690px;
     height: 30px;
-    margin: 20px 0 10px 55px;
+    margin: 20px 0 10px 0;
     color: black;
     font-family: 'Noto Sans', sans-serif;
     font-size: 20px;
@@ -130,8 +131,17 @@ body {
     font-weight: bold;
 }
 
-.new_games span{
-    margin-right: 10px;
+.new_games a{
+    text-decoration: none;
+    color: black;
+}
+
+.add_new_game:hover {
+    color: cornflowerblue;
+}
+
+.game_complaint:hover {
+    color: cornflowerblue;
 }
 
 .new_game_border{
@@ -280,7 +290,6 @@ body {
 }
 
 .ganre1:hover{
-    background-color: rgb(242,242,242);
     padding-left: 5px;
     border-radius: 5px;
     border: 1px solid black;
@@ -296,6 +305,7 @@ body {
     border-radius: 0 5px 5px 0;
     box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
     padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .svg_span_top{
@@ -374,7 +384,6 @@ body {
 }
 
 .top1:hover{
-    background-color: rgb(242,242,242);
     margin-left: -2px;
 }
 
