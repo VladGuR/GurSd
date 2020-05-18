@@ -144,6 +144,96 @@ body {
     color: cornflowerblue;
 }
 
+.new_games_android{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 690px;
+    height: 30px;
+    margin: 20px 0 10px 0;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.android_svg {
+    margin-right: 5px;
+}
+
+.new_games_ios{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 690px;
+    height: 30px;
+    margin: 20px 0 10px 0;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.ios_svg {
+    margin-right: 5px;
+}
+
+.new_games_windows{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 690px;
+    height: 30px;
+    margin: 20px 0 10px 0;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.windows_svg {
+    margin-right: 5px;
+}
+
+.new_games_xbox{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 690px;
+    height: 30px;
+    margin: 20px 0 10px 0;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.xbox_svg {
+    margin-right: 5px;
+}
+
+.new_games_psp{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 690px;
+    height: 30px;
+    margin: 20px 0 10px 0;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.psp_svg {
+    margin-right: 5px;
+}
+
 .new_game_border{
     display: flex;
     justify-content: center;
